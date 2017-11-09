@@ -1,0 +1,1 @@
+{kyle=sherman  food= mat} { water= vatten  kyle=sherman  food= mat} { water= vatten  kyle=sherman   ocean= sjö  food= mat} { water= vatten  kyle=sherman   ocean= sjö  food= mat   land= jord}  
