@@ -2,12 +2,32 @@
 // In Class example work from 12/7/2017
 package Java.InClass;
 
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
+
 import java.util.ArrayList;
 
 public class Main {
 
+    public static int factorial(int i){
+        if (i == 1)
+        {
+            return 1;
+        }
+        return (i * factorial(i-1));
+    }
+
+    public static int fibonacci(int i){
+        if(i <= 2)
+            return 1;
+        else{
+            return (fibonacci(i-1) + fibonacci(i-2));
+        }
+    }
+
     public static void main(String[] args) {
 	// write your code here
+        System.out.println(factorial(6));
+        System.out.println(fibonacci(20));
 
         // barray is an index array of bthings
         System.out.println("New array of Bclass items");
